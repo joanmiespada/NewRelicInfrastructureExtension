@@ -1,0 +1,11 @@
+integration_name: com.joanmi.test
+
+instances:
+  - name: test
+    command: test_cmd"
+    arguments:
+      environment: "golang"
+    labels:
+      role: "production"
+
+

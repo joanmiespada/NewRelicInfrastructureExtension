@@ -1,0 +1,12 @@
+name: com.joanmi.test
+description: Folder size
+protocol_version: 1
+os: windows
+
+commands:
+  test_cmd:
+    command: 
+      - ./bin/test.exe -s "C:\users\joanmi\Documents"
+    prefix: services/test
+    interval: 5
+
